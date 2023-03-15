@@ -1,0 +1,78 @@
+/* Hero */
+
+.section.section--hero {
+    position: relative;
+    min-height: 100vh;
+    margin-top: -11rem;
+    padding-top: 8rem;
+}
+
+.section--hero h1 {
+    margin: 4rem 0 2rem;
+}
+
+.section--hero .section__media img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .section.section--hero {
+        margin-top: 0;
+        padding-top: 14rem;
+    }
+
+    .section--hero .section__block {
+        display: flex;
+    }
+
+    .section--hero .section__media {
+        flex: 1 0 36%;
+        margin-left: 3%;
+    }
+}
+
+
+.hero-waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-wave {
+    position: absolute;
+    bottom: 4%;
+    left: 45%;
+    width: 1500px;
+    height: 1500px;
+    background-color: #41c5fa;
+    border-radius: 43%;
+    transform: rotate(25deg);
+    transform-origin: 50% 50%;
+    opacity: 0.4;
+    animation: drift 45s infinite linear;
+}
+
+.hero-wave--two {
+    background-color: #41c5fa;
+    transform: rotate(45deg);
+    opacity: 0.77;
+    animation-duration: 55s;
+}
+
+@keyframes drift {
+    /* to { transform: rotate(360deg); } */
+}
+
+.story {
+    max-width: 95ch;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: #ffffffdd;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 1px #223c5033;
+}

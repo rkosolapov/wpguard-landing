@@ -1,0 +1,12 @@
+<script>
+    document.querySelectorAll('.button--try').forEach(item => item.addEventListener('click', () => {
+        //amplitude.getInstance().logEvent('LANDING_TRY_IT_FOR_FREE_CLICKED');
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+                window.location = url;
+            }
+        };
+        //location.href = "https://cp.wpcp-demo.io/";
+        return false;
+    }));
+</script>

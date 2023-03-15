@@ -1,0 +1,38 @@
+/* Page */
+
+.page,
+.page__body {
+    min-height: 100vh;
+}
+
+.page {
+    width: 100%;
+    color: #2d3a47cc;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: #00000000;
+    -ms-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page__body {
+    margin: 0;
+    font-size: clamp(0.87rem, 0.77rem + 0.43vw, 1.12rem);
+    line-height: 1.43;
+}
+
+.page__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}

@@ -1,0 +1,39 @@
+.section__wave {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 5rem;
+    overflow: visible;
+}
+
+.section__wave--top {
+    top: -5rem;
+    transform: translateX(-20%);
+}
+
+.section__wave--bottom {
+    bottom: -5rem;
+    transform: scaleY(-1);
+}
+
+.section__wave .wave {
+    animation: wave 3s linear infinite;
+    fill: #41c5fa;
+}
+
+.section__wave .wave--2 {
+    transform: translateX(-15%);
+    opacity: 0.6;
+    animation-duration: 5s;
+    animation-direction: reverse;
+}
+
+.section__wave .wave--3 {
+    transform: translateX(-20%);
+    opacity: 0.3;
+    animation-duration: 7s;
+}
+
+@keyframes wave {
+    /* to { transform: translateX(-100%); } */
+}

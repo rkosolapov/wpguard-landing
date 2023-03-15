@@ -1,0 +1,43 @@
+.section--comparison .articles {
+    --gap: 4rem;
+    margin: 3rem 0;
+}
+
+.section--comparison .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section--comparison .media__figure {
+    flex-shrink: 0;
+    margin: 0 0 2rem;
+}
+
+.section--comparison .media__figure > img {
+    max-width: 128px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .section--comparison .articles {
+        --gap: 6rem;
+        margin: 5rem 0;
+    }
+
+    .section--comparison .media {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section--comparison .media__figure {
+        flex-shrink: 0;
+        margin: 0 4rem 0 0;
+    }
+
+    .section--comparison .media__figure > img {
+        width: 200px;
+        max-width: none;
+        height: auto;
+    }
+}

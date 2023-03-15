@@ -1,0 +1,25 @@
+.section--requirements {
+    position: relative;
+    margin: 5rem 0;
+    overflow: visible;
+    color: #ffffff;
+    background-color: #41c5fa;
+}
+
+.section--requirements h2 {
+    color: #1a6a8b;
+}
+
+.requirements__list {
+    padding: 1rem 0;
+}
+
+.requirements__list h3 {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .requirements__list {
+        padding-top: 3rem;
+    }
+}

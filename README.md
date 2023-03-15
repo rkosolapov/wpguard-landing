@@ -1,0 +1,21 @@
+# WSP for AWS main landing
+
+https://wsp-aws.io/
+
+## Getting started
+
+### Dev environment
+- make sure you have node.js installed
+- install dependencies `npm install`
+- start server for local development `npm start`
+
+### use Docker for dev environment
+TODO
+
+### use Docker to get production build
+- build and run: `docker build -t wsp-landing . && docker run --rm -p80:80 wsp-landing:latest`
+
+---
+- [Node.js](https://nodejs.org/)
+- [Eleventy](https://www.11ty.io/)
+- [Gulp](https://gulpjs.com/)

@@ -1,0 +1,45 @@
+.section--pricing {
+    position: relative;
+    margin: 5rem 0;
+    overflow: visible;
+    color: #ffffff;
+    background-color: #41c5fa;
+}
+
+.section--pricing h2 {
+    color: #1a6a8b;
+}
+
+.pricing__list {
+    padding: 1rem 0;
+}
+
+.pricing__list h3 {
+    color: #ffffff;
+}
+
+.pricing__list a {
+    color: #85f9fe;
+}
+
+.pricing__list a[target='_blank']::after {
+    content: url("data:image/svg+xml,<svg width='16' height='16' viewBox='0 0 16 16' fill='%2385f9fe' xmlns='http://www.w3.org/2000/svg'><path d='M5.645 10.355a.496.496 0 0 1 0-.702L14.298 1H10.5a.5.5 0 0 1 0-1h5.002A.494.494 0 0 1 16 .498V5.5a.5.5 0 0 1-1 0V1.702l-8.653 8.653a.496.496 0 0 1-.702 0z'></path><path d='M8 4.5a.5.5 0 0 0-.5-.5H1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8.5a.5.5 0 0 0-1 0V15H1V5h6.5a.5.5 0 0 0 .5-.5z'></path></svg>");
+    margin-left: 0.1rem;
+}
+
+.pricing__list a[target='_blank'].button::after {
+    content: '';
+}
+
+.pricing__list .button {
+    margin: 0;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .pricing__list {
+        padding-top: 3rem;
+    }
+}

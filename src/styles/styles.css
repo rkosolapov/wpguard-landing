@@ -1,0 +1,23 @@
+/* Fonts */
+
+@import 'fonts.css';
+
+/* Blocks */
+
+@import 'blocks/reset.css';
+@import 'blocks/visually-hidden.css';
+@import 'blocks/page.css';
+@import 'blocks/content.css';
+@import 'blocks/grid.css';
+@import 'blocks/header.css';
+@import 'blocks/section.css';
+@import 'blocks/hero.css';
+@import 'blocks/article.css';
+@import 'blocks/howtostart.css';
+@import 'blocks/requirements.css';
+@import 'blocks/pricing.css';
+@import 'blocks/wave.css';
+@import 'blocks/features.css';
+@import 'blocks/comparison.css';
+@import 'blocks/footer.css';
+@import 'blocks/svroll-up.css';

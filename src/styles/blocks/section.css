@@ -1,0 +1,33 @@
+.section {
+    overflow: hidden;
+}
+
+.section__media {
+    min-width: 0;
+    max-width: 70vw;
+    margin: 1rem auto 0;
+}
+
+.section__buttons {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.section__buttons .button {
+    margin: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .section__block {
+        display: flex;
+    }
+
+    .section__description {
+        align-self: center;
+    }
+
+    .section__media {
+        flex: 1 0 40%;
+        margin-top: 0;
+    }
+}
