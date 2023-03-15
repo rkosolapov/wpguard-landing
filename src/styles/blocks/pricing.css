@@ -1,9 +1,8 @@
 .section--pricing {
     position: relative;
     margin: 5rem 0;
+    padding: 5rem 0;
     overflow: visible;
-    color: #ffffff;
-    background-color: #41c5fa;
 }
 
 .section--pricing h2 {
@@ -15,7 +14,7 @@
 }
 
 .pricing__list h3 {
-    color: #ffffff;
+    color: #1a6a8b;
 }
 
 .pricing__list a {

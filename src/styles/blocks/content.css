@@ -121,13 +121,13 @@ h4 {
 /* Links */
 
 a {
-    color: #28aade;
+    color: #2c4dc6;
     text-decoration: none;
     transition: 0.2s linear;
 }
 
 a:hover {
-    color: #0688bc;
+    color: #3d5ed7;
     text-decoration: underline;
 }
 
@@ -170,7 +170,7 @@ a[target='_blank'].button::after {
     text-align: center;
     text-decoration: none;
     text-overflow: ellipsis;
-    background-color: #2bb8f0;
+    background-color: #2c4dc6;
     border: none;
     border-radius: 40px;
     cursor: pointer;
@@ -180,7 +180,7 @@ a[target='_blank'].button::after {
 .button:hover {
     color: #ffffff;
     text-decoration: none;
-    background-color: #249ecf;
+    background-color: #1b3cb5;
 }
 
 .button--center {
@@ -258,7 +258,7 @@ a[target='_blank'].button::after {
 
 .links a, .links button {
     margin: 0 0.5rem 0.5rem;
-    color: #0688bc;
+    color: #2c4dc6;
     text-decoration: none;
 }
 

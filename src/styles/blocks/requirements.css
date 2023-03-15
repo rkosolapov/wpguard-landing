@@ -1,9 +1,11 @@
 .section--requirements {
     position: relative;
     margin: 5rem 0;
+    padding: 5rem 0;
     overflow: visible;
-    color: #ffffff;
-    background-color: #41c5fa;
+    background-color: #cccccc;
+    border-top: 2px solid #aaaaaa;
+    border-bottom: 2px solid #aaaaaa;
 }
 
 .section--requirements h2 {
@@ -15,7 +17,7 @@
 }
 
 .requirements__list h3 {
-    color: #ffffff;
+    color: #1a6a8b;
 }
 
 @media (min-width: 768px) {

@@ -48,7 +48,7 @@
 
 .header__nav-link {
     margin: 0 0.5rem 0.5rem;
-    color: #0688bc;
+    color: #2c4dc6;
     text-decoration: none;
 }
 
@@ -98,7 +98,7 @@
 
     .header--sticky .header__nav-link {
         margin: 0.15rem 0 0.15rem 2rem;
-        color: #28aade;
+        color: #2c4dc6;
     }
 
     .header--sticky .header__nav-link:hover,

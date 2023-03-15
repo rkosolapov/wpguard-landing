@@ -19,7 +19,7 @@
 }
 
 .scroll-up:hover {
-    color: #009bec;
+    color: #2c4dc6;
 }
 
 .scroll-up--active {
@@ -31,7 +31,7 @@
 .scroll-up__svg {
     transition: 0.2s;
     fill: #e8eaf066;
-    stroke: #009bec;
+    stroke: #2c4dc6;
     stroke-width: 4px;
 }
 

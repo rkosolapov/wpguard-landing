@@ -2,9 +2,8 @@
     margin-top: 5rem;
     padding-top: 7rem;
     color: #ffffff;
-    background: 50% 0 no-repeat;
-    background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 1600 498' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse cx='799' cy='385' rx='951' ry='385' fill='%236dd3fb'/%3E%3C/svg%3E");
-    background-size: cover;
+    background-color: #aaaaaa;
+    border-top: 2px solid #999999;
 }
 
 .footer a[target='_blank']::after {
@@ -15,7 +14,7 @@
     --gap: 3rem;
     margin: -2rem 0 2rem;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
 
 .tagline > img {
