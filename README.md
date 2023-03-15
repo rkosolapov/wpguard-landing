@@ -1,6 +1,6 @@
-# WSP for AWS main landing
+# WPGuard CloudFect landing
 
-https://wsp-aws.io/
+Website: TBD
 
 ## Getting started
 
@@ -13,7 +13,7 @@ https://wsp-aws.io/
 TODO
 
 ### use Docker to get production build
-- build and run: `docker build -t wsp-landing . && docker run --rm -p80:80 wsp-landing:latest`
+- build and run: `docker build -t wpguard-landing . && docker run --rm -p80:80 wpguard-landing:latest`
 
 ---
 - [Node.js](https://nodejs.org/)
