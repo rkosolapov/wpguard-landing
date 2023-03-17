@@ -22,4 +22,4 @@ RUN npm run test && npm run build
 
 FROM nginx
 COPY --from=build /usr/app/dist /usr/share/nginx/html
-
+RUN /bin/sh -c 'echo "" > /usr/share/nginx/html/index.html'
