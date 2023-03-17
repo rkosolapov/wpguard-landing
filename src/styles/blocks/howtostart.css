@@ -2,12 +2,18 @@
 
 
 .story {
-    margin: 1em 0;
-    font-weight: 800;
+    margin: 2em 0;
+    font-size: 1.75em;
+    text-align: center;
 }
 
-em.story {
+.story em {
     color: #3352cf;
+    font-style: normal;
+}
+
+.story p {
+    padding: 2em 0;
 }
 
 .step__name {
@@ -75,6 +81,27 @@ em.story {
     height: 800px;
     padding-right: 5%;
     padding-left: 5%;
+    color: #fdfefe;
+    background-color: #244ace;
+    border-radius: 1em;
+}
+
+.swiper h4 {
+    color: #fdfefe;
+    font-size: 1.3em;
+}
+
+.swiper p {
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.swiper .button {
+    margin-top: 3em;
+    padding: 2ex 7ex;
+    color: #244ace;
+    font-weight: 400;
+    background-color: #fdfefe;
 }
 
 @media (min-width: 768px) {
@@ -89,7 +116,6 @@ em.story {
     align-items: center;
     padding-right: 5%;
     padding-left: 5%;
-    background-color: #ffffff;
 }
 
 .swiper-slide img {
@@ -100,9 +126,21 @@ em.story {
 }
 
 .swiper-button-prev {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+    left: 2em !important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23fdfefe'%2F%3E%3C%2Fsvg%3E") !important;
 }
 
 .swiper-button-next {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+    right: 2em !important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23fdfefe'%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+    width: 1em !important;
+    height: 1em !important;
+    color: #6380db !important;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fdfefe !important;
 }

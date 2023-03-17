@@ -1,12 +1,8 @@
 .section--pricing {
     position: relative;
-    margin: 5rem 0;
     padding: 5rem 0;
     overflow: visible;
-}
-
-.section--pricing h2 {
-    color: #1a6a8b;
+    background-image: linear-gradient(#feffff, #d6dbe6);
 }
 
 .pricing__list {
@@ -14,11 +10,17 @@
 }
 
 .pricing__list h3 {
-    color: #1a6a8b;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 
-.pricing__list a {
-    color: #85f9fe;
+.pricing__list p {
+    font-weight: 300;
+}
+
+.pricing__list img {
+    border: 1px solid #cad3e7;
+    border-radius: 100%;
 }
 
 .pricing__list a[target='_blank']::after {

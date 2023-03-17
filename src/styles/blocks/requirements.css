@@ -1,15 +1,7 @@
 .section--requirements {
     position: relative;
     margin: 5rem 0;
-    padding: 5rem 0;
     overflow: visible;
-    background-color: #cccccc;
-    border-top: 2px solid #aaaaaa;
-    border-bottom: 2px solid #aaaaaa;
-}
-
-.section--requirements h2 {
-    color: #1a6a8b;
 }
 
 .requirements__list {
@@ -17,7 +9,19 @@
 }
 
 .requirements__list h3 {
-    color: #1a6a8b;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.requirements__list p {
+    font-weight: 300;
+}
+
+.requirements__list .flow {
+    padding: 1em;
+    text-align: center;
+    background-color: #ebeef3;
+    border-radius: 1em;
 }
 
 @media (min-width: 768px) {

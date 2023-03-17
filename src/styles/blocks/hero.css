@@ -2,20 +2,40 @@
 
 .section.section--hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 30em;
     margin-top: -11rem;
     padding-top: 8rem;
+    padding-bottom: 2rem;
     background-image: linear-gradient(#bcc6da, #e8edf7);
 }
 
 .section--hero h1 {
     margin: 4rem 0 2rem;
+    font-weight: 600;
+    font-size: clamp(1rem, 1rem + 2.16vw, 6rem);
+    letter-spacing: 0;
+}
+
+.section--hero h3 {
+    color: #244ace;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.section--hero .button {
+    margin-top: 10ex;
+    padding: 2ex 7ex;
+    font-weight: 400;
 }
 
 .section--hero .section__media img {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+}
+
+.section--hero p {
+    font-weight: 200;
 }
 
 @media (min-width: 768px) {

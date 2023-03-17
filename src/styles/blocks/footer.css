@@ -1,9 +1,22 @@
 .footer {
-    margin-top: 5rem;
     padding-top: 7rem;
-    color: #ffffff;
-    background-color: #aaaaaa;
-    border-top: 2px solid #999999;
+    color: #fdfefe;
+    background-color: #244ace;
+}
+
+.footer .button {
+    padding: 2ex 7ex;
+    color: #244ace;
+    font-weight: 400;
+    background-color: #fdfefe;
+}
+
+.footer p {
+    font-weight: 300;
+}
+
+.footer h3 {
+    color: #fdfefe;
 }
 
 .footer a[target='_blank']::after {
