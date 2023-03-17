@@ -1,4 +1,4 @@
-# WPGuard CloudFect landing
+# WP Guard CloudFect landing
 
 Website: TBD
 

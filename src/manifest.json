@@ -1,11 +1,11 @@
 {
-  "name": "WPGuard",
+  "name": "WP Guard",
   "lang": "en",
   "start_url": "/",
   "display": "browser",
   "orientation": "any",
   "background_color": "white",
-  "description": "WPGuard",
+  "description": "WP Guard",
   "theme_color": "#ffffff",
   "icons": [{
     "src": "/images/icons/192.png",
