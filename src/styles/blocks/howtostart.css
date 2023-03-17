@@ -1,5 +1,15 @@
 /* How to start */
 
+
+.story {
+    margin: 1em 0;
+    font-weight: 800;
+}
+
+em.story {
+    color: #3352cf;
+}
+
 .step__name {
     margin: 2rem 0;
     color: #6dd3fb;

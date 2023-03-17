@@ -7,10 +7,9 @@
 
 .page {
     width: 100%;
-    color: #2d3a47cc;
+    color: #494a4c;
     font-weight: 400;
     font-size: 16px;
-    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     background-color: #ffffff;
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
