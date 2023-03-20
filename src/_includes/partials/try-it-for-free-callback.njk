@@ -2,8 +2,10 @@
     document.querySelectorAll('#try-now-button').forEach(showEl);
     document.querySelectorAll('#request-a-demo-button').forEach(removeEl);
 
+    amplitude.track('LANDING_TN_VISITED');
+
     document.querySelectorAll('.button--try').forEach(item => item.addEventListener('click', () => {
-        //amplitude.getInstance().logEvent('LANDING_TRY_IT_FOR_FREE_CLICKED');
+        amplitude.track('LANDING_TRY_NOW_CLICKED');
         var callback = function () {
             if (typeof(url) != 'undefined') {
                 window.location = url;

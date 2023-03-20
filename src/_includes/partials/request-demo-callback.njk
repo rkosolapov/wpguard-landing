@@ -1,6 +1,13 @@
 <script>
     document.querySelectorAll('#request-a-demo-button').forEach(showEl);
     document.querySelectorAll('#try-now-button').forEach(removeEl);
+
+    amplitude.track('LANDING_RD_VISITED');
+
+    document.querySelectorAll('#request-a-demo-button').forEach(item => item.addEventListener('click', () => {
+        amplitude.track('LANDING_REQUEST_DEMO_CLICKED');
+        return false;
+    }));
 </script>
 
 
