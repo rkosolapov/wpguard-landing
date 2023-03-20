@@ -170,6 +170,7 @@ a[target='_blank'].button::after {
     line-height: 1.22;
     white-space: nowrap;
     text-align: center;
+    text-transform: uppercase;
     text-decoration: none;
     text-overflow: ellipsis;
     background-color: #244ace;
@@ -188,6 +189,14 @@ a[target='_blank'].button::after {
 .button--center {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+}
+
+.button--try {
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 .back-link {

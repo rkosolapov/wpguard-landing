@@ -53,15 +53,6 @@
     text-decoration: none;
 }
 
-.header__nav-link:hover,
-.header__nav-link:focus{
-    text-decoration: none;
-    border-radius: 100%;
-    outline: none;
-    box-shadow: 0 0 0 0.8rem #2bb8f01f, inset 0 0 0 2rem #2bb8f01f;
-    filter: brightness(0.7);
-}
-
 @media (min-width: 768px) {
     .header {
         position: absolute;

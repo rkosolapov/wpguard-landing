@@ -1,4 +1,7 @@
 <script>
+    document.querySelectorAll('#try-now-button').forEach(showEl);
+    document.querySelectorAll('#request-a-demo-button').forEach(removeEl);
+
     document.querySelectorAll('.button--try').forEach(item => item.addEventListener('click', () => {
         //amplitude.getInstance().logEvent('LANDING_TRY_IT_FOR_FREE_CLICKED');
         var callback = function () {
